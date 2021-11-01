@@ -10,6 +10,7 @@ const VueFormBuilderInstaller = function(
     Vue,
     properties = {}
 ) {
+    console.log({properties})
     if (VueFormBuilderInstaller.installed) {
         return
     }
