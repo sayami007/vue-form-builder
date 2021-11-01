@@ -1,5 +1,5 @@
 {
-  "name": "v-form-builder",
+  "name": "v-form-builder-sayami",
   "version": "1.0.0",
   "private": false,
   "description": "Vue Form Builder PRO MAX built from top of Vue. Super dynamic and flexible including Drag and Drop feature.",
@@ -20,6 +20,7 @@
     "dayjs": "^1.8.28",
     "deep-equal": "^2.0.3",
     "litepicker": "^1.4.6",
+    "v-nepalidatepicker": "^1.2.4",
     "vue": "^2.6.10",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",

@@ -15,6 +15,7 @@ import {
 } from "@/configs/control-config-enum";
 
 // Control-GUI-Component
+import NepaliDateControl from "@/views/controls/NepaliDateControl"
 import InputControl from "@/views/controls/InputControl"
 import TextControl from "@/views/controls/TextControl"
 import ButtonControl from "@/views/controls/ButtonControl"
@@ -28,6 +29,7 @@ import DropdownControl from "@/views/controls/DropdownControl";
 import FileUploaderControl from "@/views/controls/FileUploaderControl";
 
 // Control-Config-Component
+import NepaliDateConfigView from "@/views/control-configs/NepaliDateConfigView";
 import InputConfigView from "@/views/control-configs/InputConfigView";
 import TextBlockConfigView from "@/views/control-configs/TextBlockConfigView";
 import ButtonConfigView from "@/views/control-configs/ButtonConfigView";
@@ -51,6 +53,20 @@ const CONTROLS = {
 
         // component mapping
         fieldComponent: InputControl,
+        configComponent: InputConfigView,
+    },
+
+    nepaliDateInput: {
+        name: "नेपाली डेट ",
+        description: "Nepali Date Field",
+        icon: 'editPencil', // Follow ICON in `icon-facade.js` to see how it works.
+
+        configData: {
+            typeAttribute: "date", // date, password
+        },
+
+        // component mapping
+        fieldComponent: NepaliDateControl,
         configComponent: InputConfigView,
     },
 
